@@ -8,4 +8,4 @@ def disemvowel(string_):
         string_ = string_.replace('u', '')
         string_ = string_.replace('y', '')
         n += 1
-        return string_
+        return print(string_)
