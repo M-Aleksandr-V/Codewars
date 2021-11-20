@@ -1,4 +1,5 @@
-def disemvowel(string_):
+def dis_em_vowel(string_):
+
     n = 0
     while n < len(string_):
         string_ = string_.replace('a', '')
@@ -9,3 +10,4 @@ def disemvowel(string_):
         string_ = string_.replace('y', '')
         n += 1
         return print(string_)
+
