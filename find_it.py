@@ -1,6 +1,6 @@
 def find_it(seq):
     for i in seq:
-        if seq.count(i) % 2 != 0:
+        if seq.count(i) % 2 != 0:  # count repetitions are multiples of three
             return i
 
 
